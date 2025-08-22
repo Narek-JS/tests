@@ -1,7 +1,6 @@
 import { it, expect, describe } from "vitest";
 import { validateStringNotEmpty, validateNumber } from "./validation";
 
-// Unit Tests for (validateStringNotEmpty) function
 describe("validateStringNotEmpty()", () => {
   it("should throw an error if the string is empty", () => {
     // Arrange
