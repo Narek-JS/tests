@@ -77,8 +77,7 @@ describe("cleanNumbers()", () => {
     const cleanedNumbers = cleanNumbers(numberValues);
 
     // Assert
-    expect(cleanedNumbers[0]).toBeTypeOf("number");
-    expect(cleanedNumbers[1]).toBeTypeOf("number");
+    expect(cleanedNumbers).toEqual([1, 2]);
   });
 
   it("should throw an error if an array with at least one empty string is provided", () => {
